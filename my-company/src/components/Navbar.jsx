@@ -6,7 +6,11 @@ export default function Navbar() {
     textDecoration: "none",
     color: "white",
   };
-  const navStyle = { padding: "10px", backgroundColor: "#333" };
+  const navStyle = {
+    padding: "10px",
+    backgroundColor: "#333",
+    display: "justify-content",
+  };
 
   return (
     <nav style={navStyle}>
