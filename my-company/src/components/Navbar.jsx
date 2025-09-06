@@ -10,7 +10,8 @@ export default function Navbar() {
   return (
     <nav
       style={{
-        display: "justify-content",
+        display: "flex",
+        justifyContent: "space-between",
         padding: "10px",
         backgroundColor: "#333",
       }}
