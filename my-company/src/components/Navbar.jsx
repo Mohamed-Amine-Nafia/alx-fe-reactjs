@@ -6,14 +6,15 @@ export default function Navbar() {
     textDecoration: "none",
     color: "white",
   };
-  const navStyle = {
-    padding: "10px",
-    backgroundColor: "#333",
-    display: "justify-content",
-  };
 
   return (
-    <nav style={navStyle}>
+    <nav
+      style={{
+        display: "justify-content",
+        padding: "10px",
+        backgroundColor: "#333",
+      }}
+    >
       <Link to="/" style={linkStyle}>
         Home
       </Link>
