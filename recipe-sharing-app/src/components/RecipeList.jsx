@@ -1,9 +1,13 @@
-// src/components/RecipeList.jsx
 import { useRecipeStore } from "./recipeStore.js";
 import { Link } from "react-router-dom";
 
 const RecipeList = () => {
-  const filteredRecipes = useRecipeStore((state) => state.filteredRecipes);
+  const recipes = useRecipeStore((state) => state.recipes);
+  const searchTerm = useRecipeStore((state) => state.searchTerm);
+
+  const filteredRecipes = recipes.filter((r) =>
+    r.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div>
@@ -22,4 +26,5 @@ const RecipeList = () => {
     </div>
   );
 };
+
 export default RecipeList;
