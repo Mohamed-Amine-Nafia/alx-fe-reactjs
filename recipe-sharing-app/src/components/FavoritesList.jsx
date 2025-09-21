@@ -4,10 +4,10 @@ const FavoritesList = () => {
   const favorites = useRecipeStore((state) => state.favorites);
   const recipes = useRecipeStore((state) => state.recipes);
 
-  // Compute favorite recipes locally
+  
   const favoriteRecipes = favorites
     .map((id) => recipes.find((r) => r.id === id))
-    .filter(Boolean); // remove undefined if recipe not found
+    .filter(Boolean); 
 
   if (favoriteRecipes.length === 0) return <p>No favorites yet.</p>;
 

@@ -1,4 +1,3 @@
-// src/components/RecipeDetails.jsx
 import { useRecipeStore } from "./recipeStore.js";
 import { useParams, Link } from "react-router-dom";
 import EditRecipeForm from "./EditRecipeForm";
