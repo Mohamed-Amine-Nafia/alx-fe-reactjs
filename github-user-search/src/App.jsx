@@ -4,7 +4,7 @@ import Search from "./components/Search";
 
 function App() {
   return (
-    <div className="bg-slate-400 w-screen h-screen flex justify-center items-center">
+    <div className="bg-slate-400 max-w-screen min-h-screen flex justify-center items-center py-5">
       <Search />
     </div>
   );
