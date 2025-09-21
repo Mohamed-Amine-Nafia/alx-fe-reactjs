@@ -1,11 +1,11 @@
-// src/App.jsx
+import "./App.css";
 import React from "react";
+import Search from "./components/Search";
 
 function App() {
   return (
-    <div>
-      <h1>GitHub User Search App</h1>
-      <p>Project setup successful 🚀</p>
+    <div className="bg-slate-400 w-screen h-screen flex justify-center items-center">
+      <Search />
     </div>
   );
 }
