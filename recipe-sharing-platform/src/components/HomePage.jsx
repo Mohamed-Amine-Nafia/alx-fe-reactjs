@@ -25,6 +25,7 @@ function HomePage() {
           </div>
         </div>
       ))}
+      <Link to="/add-recipe">Add Recipe</Link>
     </div>
   );
 }
