@@ -2,13 +2,33 @@
   {
     "id": 1,
     "title": "Spaghetti Carbonara",
-    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta",
+      "2 eggs",
+      "50g parmesan cheese",
+      "Salt & pepper"
+    ],
+    "instructions": [
+      "Boil the spaghetti until al dente.",
+      "Fry the pancetta until crispy.",
+      "Whisk eggs and parmesan together.",
+      "Combine everything off the heat.",
+      "Serve with extra parmesan and pepper."
+    ]
   },
   {
     "id": 2,
-    "title": "Chicken Tikka Masala",
-    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://placehold.co/150"
+    "title": "Chicken Curry",
+    "image": "https://placehold.co/150",
+    "ingredients": ["500g chicken", "2 onions", "Spices", "Tomato sauce"],
+    "instructions": [
+      "Cook onions until golden.",
+      "Add spices and fry briefly.",
+      "Add chicken and cook until sealed.",
+      "Pour in tomato sauce and simmer.",
+      "Serve with rice or naan."
+    ]
   }
 ]
